@@ -1,8 +1,8 @@
 # Wordle Statistics
 
-I had a discussion about the best wordle words. Obviously the best is to eliminate the most common letters (r, s, t, etc), as well as vowels. However it was pointed out that the most common letters might be different among 5-letter words. Thus... this small project to see the distributions of letters among 5-letter words.
+Like everyone else, I was talking about [wordle](https://www.powerlanguage.co.uk/wordle/), and the best starting words. It was pointed out that the most common letters might be different among 5-letter words vs the entire english language. Thus... this small project to see the distributions of letters among 5-letter words.
 
-I took valid words accepted by [wordle](https://www.powerlanguage.co.uk/wordle/) and plotted the occurances of each letter, was well as the most common letters within each position (1-5)
+I took valid words accepted by  and plotted the occurances of each letter, was well as the most common letters within each position (1-5)
 
 We see that common starter words such as ADEIU are actually quite bad. Not only are there more common consonants such as r, s, and t, but the position of the letters is not that common in eliminating answers. Instead, the best words are things like REAIS, SOARE, ROATE, or RAISE, which have 3 vowels and the common letters R, S, E. 
 
@@ -20,4 +20,6 @@ NOTE: This is not a wordle solver, there are plenty of those on the internet.
 
 # Findings
 
-In progress
+* The most common letters in english (in order of high to low frequency) are: e, a, i, r, o, t, n. However for 5 letter words it is different: e, s, a, o, r, i, l, t
+* The most common 5-letter starting letter is S, and by a substantial amount.
+* Vowels are the most common 2nd letter, followed by r
