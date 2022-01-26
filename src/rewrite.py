@@ -2,7 +2,7 @@ import datetime
 
 x = datetime.datetime(2021, 6, 19)
 
-puzzleNumber = 1
+puzzleNumber = 0
 with open("../data/answers.txt", 'r') as answerWords:
 	words = answerWords.readlines()[0].strip().split(" ")
 with open('../data/searchableAnswers.txt', 'w') as outfile:
