@@ -35,7 +35,7 @@ for n in range(1, 6):
 	plt.bar(letters, frequencies)
 	plt.title('Letter Frequencies for Position ' + str(n))
 	plt.xlabel('letter')
-	plt.ylabel('frequencies (\%)')
+	plt.ylabel('frequencies (%)')
 	plt.savefig("../img/" + str(n) + ".png")
 
 # Plot total frequencies for 5 letter words
@@ -48,7 +48,7 @@ frequencies, letters = zip(*sorted(zip(frequencies, letters), reverse=True))
 plt.bar(letters, frequencies)
 plt.title('Letter Frequencies for 5-letter Words')
 plt.xlabel('letter')
-plt.ylabel('frequencies (\%)')
+plt.ylabel('frequencies (%)')
 plt.savefig("../img/total.png")
 
 # Plot frequencies for all english words
@@ -60,7 +60,7 @@ occurance, letters = zip(*sorted(zip(occurance, letters), reverse=True))
 plt.bar(letters, occurance)
 plt.title('Letter Frequencies in English Language')
 plt.xlabel('letter')
-plt.ylabel('frequency')
+plt.ylabel('frequency (%)')
 plt.savefig("../img/englishTotal.png")
 
 
@@ -81,7 +81,7 @@ plt.xticks(ind + width / 2, letters)
 plt.legend(loc='best')
 plt.title('Letter Frequencies')
 plt.xlabel('letter')
-plt.ylabel('frequency')
+plt.ylabel('frequency (%)')
 plt.savefig("../img/compTotal.png")
 
 
