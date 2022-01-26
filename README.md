@@ -15,6 +15,7 @@ I took valid words accepted by and plotted the occurances of each letter, was we
 We see that common starter words such as ADEIU are actually quite bad. Not only are there more common consonants such as r, s, and t, but the position of the letters is not that common in eliminating answers. Instead, the best words are things like REAIS, SOARE, ROATE, or RAISE, which have 3 vowels and the common letters R, S, E. 
 
 * The most common letters in english (in order of high to low frequency) are: e, a, r, i, o, t, n. However for 5 letter words it is different: s, e, a, o, r, i, l, t
+* The most common letters of 5-letter words are not the same as the most common letters from the answers
 * The most common 5-letter starting letter is S, and by a substantial amount.
 * Vowels are the most common 2nd letter, followed by r
 * Pending...
@@ -23,6 +24,7 @@ We see that common starter words such as ADEIU are actually quite bad. Not only 
 
 ![](img/total.png)
 ![](img/englishTotal.png)
+![](img/answersTotal.png)
 ![](img/1.png)
 ![](img/2.png)
 ![](img/3.png)

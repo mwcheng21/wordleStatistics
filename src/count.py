@@ -19,10 +19,15 @@ placements = {
 			}
 totalOccurances = {}
 
+for letter in alphabet:
+	for i in range(1, 6):
+		placements[str(i)][letter] = 0
+	totalOccurances[letter] = 0
+
 for word in words:
 	for i in range(1, 6):
-		placements[str(i)][word[i-1:i]] = 0 if word[i-1:i] not in placements[str(i)] else placements[str(i)][word[i-1:i]] + 1
-		totalOccurances[word[i-1:i]] = 0 if word[i-1:i] not in totalOccurances else totalOccurances[word[i-1:i]] + 1
+		placements[str(i)][word[i-1:i]] += 1
+		totalOccurances[word[i-1:i]] += 1
 
 # Plot positions 1-5
 for n in range(1, 6):
