@@ -1,6 +1,6 @@
 # Wordle Letter Distributions
 
-NOTE: If you want the wordle answers, see [answers (spoilers)](data/searchableAnswers.txt)
+NOTE: If you want the wordle answers, see [answers (spoilers)](data/searchableAnswersNew.txt)
 
 NOTE: This is not a wordle solver, there are plenty of those on the internet. This is just some stats for me to check out
 

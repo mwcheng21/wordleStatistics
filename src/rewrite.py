@@ -3,9 +3,9 @@ import datetime
 x = datetime.datetime(2021, 6, 19)
 
 puzzleNumber = 0
-with open("../data/answers.txt", 'r') as answerWords:
+with open("../data/answersNew.txt", 'r') as answerWords:
 	words = answerWords.readlines()[0].strip().split(" ")
-with open('../data/searchableAnswers.txt', 'w') as outfile:
+with open('../data/searchableAnswersNew.txt', 'w') as outfile:
 	for word in words:
 		outfile.write(str(puzzleNumber) + ": ")
 		outfile.write(x.strftime("%B %d, %Y "))
